@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap 5 All Exercises</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="p-3">
+
+<!-- 1. Setup -->
+<h1 class="text-center text-primary">Bootstrap 5 Exercises</h1>
+
+<!-- 3. Grid Layout -->
+<div class="container my-4">
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-4 bg-primary text-white p-3">Column 1</div>
+    <div class="col-12 col-md-6 col-lg-4 bg-success text-white p-3">Column 2</div>
+    <div class="col-12 col-md-6 col-lg-4 bg-danger text-white p-3">Column 3</div>
+  </div>
+</div>
+
+<!-- 4. Sidebar Layout -->
+<div class="container my-4">
+  <div class="row">
+    <div class="col-md-3 bg-light p-3">Sidebar</div>
+    <div class="col-md-9 bg-secondary text-white p-3">Content Area</div>
+  </div>
+</div>
+
+<!-- 5. Alignment -->
+<div class="d-flex justify-content-center align-items-center bg-info my-4" style="height:150px;">
+  <div class="bg-dark text-white p-2">Centered</div>
+</div>
+
+<!-- 5. Reordering -->
+<div class="row my-4">
+  <div class="col-md-6 order-md-2 bg-warning p-3">First</div>
+  <div class="col-md-6 order-md-1 bg-info p-3">Second</div>
+</div>
+
+<!-- 6. Flex Navbar -->
+<div class="d-flex flex-column flex-md-row bg-dark text-white p-3 my-4">
+  <div class="p-2">Logo</div>
+  <div class="p-2">Home</div>
+  <div class="p-2">About</div>
+</div>
+
+<!-- 7. Typography -->
+<div class="my-4">
+  <h1 class="display-1">Display</h1>
+  <p class="lead">Lead Text</p>
+  <p class="text-muted">Muted</p>
+  <p class="fw-bold text-uppercase">Bold Uppercase</p>
+</div>
+
+<!-- 8. Forms -->
+<div class="container my-4">
+  <form>
+    <input class="form-control mb-2" placeholder="Name">
+    <input class="form-control mb-2" placeholder="Email">
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input">
+      <label class="form-check-label">Agree</label>
+    </div>
+  </form>
+
+  <div class="form-floating mt-3">
+    <input type="email" class="form-control" placeholder="Email">
+    <label>Email</label>
+  </div>
+</div>
+
+<!-- 9. Buttons -->
+<div class="my-4">
+  <button class="btn btn-primary">Primary</button>
+  <button class="btn btn-secondary">Secondary</button>
+  <button class="btn btn-outline-danger">Outline</button>
+
+  <div class="btn-group mt-2">
+    <button class="btn btn-success">Yes</button>
+    <button class="btn btn-danger">No</button>
+  </div>
+</div>
+
+<!-- 10. Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark my-4">
+  <div class="container">
+    <a class="navbar-brand">MySite</a>
+    <input class="form-control w-25" placeholder="Search">
+  </div>
+</nav>
+
+<!-- 11. Card -->
+<div class="card my-4" style="width: 18rem;">
+  <img src="https://via.placeholder.com/150" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">Profile</h5>
+    <p class="card-text">Student</p>
+  </div>
+</div>
+
+<!-- 12. Spacing -->
+<div class="m-3 p-4 bg-light">Spacing Example</div>
+
+<!-- 13. Colors -->
+<div class="bg-primary text-white p-3 my-2">Primary</div>
+<div class="bg-warning p-3 my-2">Warning</div>
+
+<!-- 14. Display -->
+<div class="d-none d-md-block bg-success p-3 my-3">Visible on MD+</div>
+
+<!-- 15. Borders & Shadows -->
+<img src="https://via.placeholder.com/100" class="rounded-circle border border-primary border-3 my-3">
+
+<div class="shadow-lg p-3 rounded-pill my-3">Shadow Box</div>
+
+<!-- 16. Position -->
+<div class="position-relative my-4">
+  <img src="https://via.placeholder.com/150">
+  <span class="position-absolute top-0 start-100 translate-middle badge bg-danger">New</span>
+</div>
+
+<!-- 17. Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<div class="my-3">
+  <i class="bi bi-facebook"></i>
+  <i class="bi bi-instagram"></i>
+</div>
+
+<!-- 18. Modal -->
+<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Open Modal</button>
+
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content p-3">
+      <h5>Modal Content</h5>
+    </div>
+  </div>
+</div>
+
+<!-- Accordion -->
+<div class="accordion my-4">
+  <div class="accordion-item">
+    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#a1">
+      Section
+    </button>
+    <div id="a1" class="accordion-collapse collapse">
+      <div class="accordion-body">Content</div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3 mt-4 position-fixed bottom-0 w-100">
+  Footer Fixed
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
